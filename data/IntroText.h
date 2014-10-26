@@ -1,5 +1,7 @@
 static const char *introTextData =
-	"\blThe Powder Toy - Version " MTOS(SAVE_VERSION) "." MTOS(MINOR_VERSION) " - http://powdertoy.co.uk, irc.freenode.net #powder\n"
+	"\blFeynmanPowder - Version " MTOS(SAVE_VERSION) "." MTOS(MINOR_VERSION) " - http://powdertoy.co.uk, irc.freenode.net #powder\n"
+	"\brB\bwM\bbN \bwMod - http://brilliant-minds.tk\n"
+	"\bbBuild: " MTOS(BUILD_NUM) "\n"
 	"\x7F\x7F\x7F\x7F\x7F\x7F\x7F\x7F\x7F\x7F\x7F\x7F\x7F\x7F\x7F\x7F\x7F\x7F\x7F\n"
 	"\n"
 	"\bgControl+C/V/X are Copy, Paste and cut respectively.\n"
@@ -21,12 +23,7 @@ static const char *introTextData =
 	"Contributors: \bgStanislaw K Skowronek (Designed the original Powder Toy),\n"
 	"\bgSimon Robertshaw, Skresanov Savely, cracker64, Catelite, Bryan Hoyle, Nathan Cousins, jacksonmj,\n"
 	"\bgFelix Wallin, Lieuwe Mosch, Anthony Boot, Matthew \"me4502\", MaksProg, jacob1, mniip\n"
-	"\n"
-#ifndef BETA
-	"\bgTo use online features such as saving, you need to register at: \brhttp://powdertoy.co.uk/Register.html\n"
-#else
-	"\brThis is a BETA, you cannot save things publicly. If you are planning on publishing any saves, use the release version\n"
-#endif
+	"\brBMN Contributions:\n  FeynmanLogomaker: icon/graphic design, initialization\n  Wolfy1339: Build hosting\n"
 	"\n"
 	"\bt" MTOS(SAVE_VERSION) "." MTOS(MINOR_VERSION) "." MTOS(BUILD_NUM) " " IDENT_PLATFORM " "
 #ifdef X86
